@@ -1,0 +1,119 @@
+
+.first-page {
+  display: block;
+}
+
+.socialList {
+  list-style-type: none;
+}
+
+.socialList li {
+  margin: 5%;
+}
+
+.socialList li img {
+  width: 7em;
+  height: 7em;
+  
+}
+
+
+li {
+  color: white;
+}
+
+.aboutMe {
+  padding: 10%;
+}
+
+.bild1 {
+  border-radius: 50%;
+  height: 20vh;
+  margin-top: 7vh;
+}
+
+.second-page {
+  text-align: center;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.kunskapsLada {
+  height: auto;
+  width: 40%;
+  margin: auto;
+  margin-top: 4em;
+  background-color: black;
+  transition: 0.3s;
+}
+
+#skills,
+#hittaMig {
+  color: white;
+  background-color: black;
+  width: 35%;
+  height: 5vh;
+}
+
+.third-page {
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.sqlBar,
+.htmlBar,
+.javaBar,
+.jsBar,
+.cssBar {
+  height: 100%;
+  width: 0;
+  background-color: #6f2232;
+}
+
+.mailLink,
+.faceInsta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+
+.stapel-procent {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .jsSql,
+  .javaHtml,
+  .css {
+    display: inline-block;
+    width: 25%;
+    margin: 10% 10% 8% 10%;
+  }
+
+ 
+  .kunskapsLada {
+    width: 100%;
+  }
+
+  .aboutMe {
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+  }
+
+  .knappar {
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  .kunskaper li {
+    display: inline-block;
+    width: 30%;
+    margin-top: 9%;
+    margin-left: 5%;
+  }
+}
